@@ -13,7 +13,7 @@ jobs:
 
       - name: Update stats section in README
         run: |
-          NEW_STATS=$(cat <<EOF
+          NEW_STATS=$(cat <<'EOF'
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wporta&show_icons=true&locale=en)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=wporta)
@@ -23,14 +23,16 @@ jobs:
 [![Trophies](https://github-profile-trophy.vercel.app/?username=wporta)](https://github.com/ryo-ma/github-profile-trophy)
 EOF
           )
-          awk '/<!--START_STATS-->/ { print; print ENVIRON["NEW_STATS"]; skip=1; next }
-               /<!--END_STATS-->/ { skip=0 }
-               !skip' README.md > README.tmp && mv README.tmp README.md
+          awk -v new_stats="$NEW_STATS" '
+            /<!--START_STATS-->/ { print; print new_stats; skip=1; next }
+            /<!--END_STATS-->/ { skip=0 }
+            !skip
+          ' README.md > README.tmp && mv README.tmp README.md
 
-      - name: Commit changes
+      - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
-          git commit -m "Update GitHub stats section" || echo "No changes"
+          git diff --cached --quiet || git commit -m "Update GitHub stats section"
           git push
