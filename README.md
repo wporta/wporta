@@ -6,9 +6,6 @@ In the past, I've also worked as a DevOps Engineer using tools like **Linux, Doc
 
 ## 🚀 Languages and Tools I Use
 
-<a href="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="42" height="42" />
-</a>
 <a href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" />
 </a>
@@ -29,9 +26,6 @@ In the past, I've also worked as a DevOps Engineer using tools like **Linux, Doc
 </a>
 <a href="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42" />
-</a>
-<a href="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" target="_blank">
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="42" height="42" />
 </a>
 <a href="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="42" height="42" />
