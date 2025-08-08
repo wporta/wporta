@@ -70,3 +70,13 @@ In the past, I've also worked as a DevOps Engineer using tools like **Linux, Doc
 
 [![Trophies](https://github-profile-trophy.vercel.app/?username=wporta)](https://github.com/ryo-ma/github-profile-trophy)
 <!--END_STATS-->
+<!--START_STATS-->
+<!--START_STATS-->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wporta&show_icons=true&locale=en)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=wporta)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=wporta&show_icons=true&locale=en&layout=compact)
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=wporta)](https://github.com/ryo-ma/github-profile-trophy)
+<!--END_STATS-->
