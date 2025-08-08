@@ -61,6 +61,7 @@ In the past, I've also worked as a DevOps Engineer using tools like **Linux, Doc
 ## 📊 More Info
 
 <!--START_STATS-->
+<!--START_STATS-->
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wporta&show_icons=true&locale=en)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=wporta)
